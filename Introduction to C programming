@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main() {
-printf("My name is Chitra");
-printf("\n");
-printf("\n");
-printf("\n");
-printf("\n");
-printf("\n");
-printf("\n");
+printf("I am Chitra");
+printf("I am in MIT WPU\n");
+printf("I'm doing B.Tech in ECE\n");
+printf("doing pps practicals\n");
+printf("this is my first program\n");
+return 0;
+}
