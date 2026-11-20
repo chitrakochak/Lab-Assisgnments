@@ -1,9 +1,17 @@
 #include<stdio.h>
-int main() {
+int main()
+//1st code
+{
 printf("I am Chitra");
 printf("I am in MIT WPU\n");
 printf("I'm doing B.Tech in ECE\n");
 printf("doing pps practicals\n");
 printf("this is my first program\n");
+//2nd code
+int number;
+printf("Enter a number: ");
+scanf("%d", &number);
+printf("You entered %d\n", number);
 return 0;
 }
+
