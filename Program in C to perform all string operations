@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main ()
+{
+char s1[50],s2[50];
+printf("Enter first string : \n");
+scanf("%s",s1);
+printf("Enter second string : \n");
+scanf("%s",s2);
+
+printf("\n\n\n");
+int j,choice;
+printf("MENU DRIVEN PROGRAM\n");
+printf("--------------------------------------------------------------------------------------\n");
+printf("--------------------------------------------------------------------------------------");
+printf("\n1.\n\n\n");
