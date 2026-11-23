@@ -10,8 +10,43 @@ printf("Enter second string : \n");
 scanf("%s",s2);
 
 printf("\n\n\n");
-int j,choice;
+int j,ch;
 printf("MENU DRIVEN PROGRAM\n");
 printf("--------------------------------------------------------------------------------------\n");
 printf("--------------------------------------------------------------------------------------");
-printf("\n1.\n\n\n");
+printf("\n1. Calculate the length of both the strings\n2. Concatenate both the strings\n3. Copy the strings\n4. Compare the strings");
+printf("\n\nEnter your choice : ");
+scanf("%d",&ch);
+
+switch(ch)
+{
+case 1:
+printf("Length first string is %ld", strlen(s1));
+printf("\n");
+printf("Length second string is %ld", strlen(s2));
+break;
+
+case 2:
+printf("Strings after cancatenation : %s", strcat(s1,s2));
+break;
+
+case 3:
+printf("String after being copied :%s", strcpy(s1,s2));
+printf("\nOR\nString after being copied :%s", strcpy(s2,s1));
+break;
+
+case 4:
+j=strcmp(s1,s2);
+is (j==0){
+printf("The entered strings are identical");
+}
+else {
+printf("The entered strings are different"); 
+}
+break;
+
+default :
+printf("Invalid choice");
+}
+return 0;
+}
