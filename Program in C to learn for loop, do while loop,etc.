@@ -1,0 +1,56 @@
+#include<stdio.h>
+
+void main() {
+
+int count=1;
+
+//while loop:
+
+while(count<=5)
+
+ {
+
+printf("%d\n", count);
+
+ count++;
+
+}
+
+ return(0);
+
+ // do while loop:
+
+ int c=1;
+
+ do
+
+{
+
+ printf("%d\n", c);
+
+ c++;
+
+} 
+while(c<6);
+
+ return(0);
+
+ printf("\n\n");
+
+
+
+//input the number for table
+
+ int n,j;
+
+ printf("Enter the number whose table you want to be printed: ");
+
+ scanf("%d", &n);
+
+ printf("\n");
+
+ for(j=1;j<11;j++) 
+{
+ printf("%d\n",j*n);
+}
+}
